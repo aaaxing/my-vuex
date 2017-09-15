@@ -13,7 +13,7 @@ export default {
             test
         }
     },
-    //一： state的获取方式只介绍以下三种
+    //一： state的获取方式只介绍以下三种（其实使用第三种就行了）
     // 1.直接获取:this.$store.state.firstPart.name，在template中$store.state.firstPart.name
     // 2.如果需要用到this获取当前组件状态，用这种
     // computed: mapState({
